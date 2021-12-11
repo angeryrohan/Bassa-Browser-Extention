@@ -54,7 +54,7 @@ And ofcourse, there is no need to keep opening the extension. Just turn it on, a
 
 5. <b>Remind me for an urgent download</b>:<br> After turning this ON, BassaExtension would ask for the user's desired Bandwidth efficiency and notify the user whenever the internet's bandwidth efficiency becomes more than the userinput. What this means is that If I urgently want to download something and I need bandwidth efficiency to make the download faster. Then I would simply type in my desired Bandwidth (say 80%).Then whenever the low internet's traffic (thus higher bandwidth efficiency. In this case, more than 80% which is the userinput) is noticed, BassaExtension would automatically notify the user.</b><br><br>
 ## Installation on Chrome
-1. Get root Directories: ```git clone https://github.com/rohancl/BassaExtension/```
+1. Get root Directories: ```git clone https://github.com/angeryrohan/BassaExtension/```
 2. Open Chrome and type in ```chrome://extensions/``` into the URL, Hit Enter.
 3. Look at the top-right corner, You should see a Developer option switch there, Turn it on.
 
