@@ -1,0 +1,27 @@
+{
+ "manifest_version": 2,
+ "name": "Bassa Extension",
+ "description": "Detecting traffic through Bassa's algorithms on a browser extension and notify user of an appropriate 'Download Time' in accordance with the Server Traffic",
+ "version": "1",
+   "content_scripts": [
+   {
+     "matches": ["http://*/*"],
+     "js": ["jquery.js", "popup.js", "apexcharts.min.js"]
+   }
+ ],
+   "background": {
+    "scripts":["background.js"]
+   },
+ "author": "Rohan Singh",
+"browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html",
+   "default_title": "Bassa Extension"
+ },
+ "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
+  "permissions" : [
+    "notifications"
+  ]
+}
